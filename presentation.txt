@@ -1,0 +1,11 @@
+Nombre del curso: Introducción a R y Rstudio.
+
+Quien imparte: Heriberto Cartas Barrera.
+
+Nivel de estudios: Superior.
+
+Experiencia con R: Media
+
+Objetivo del curso: Enseñar los fundamentes básicos del lenguaje R, que le permitiran a la persona comunicarse con el programa de la forma correcta, así como mostrar algunas de sus funciones y aplicaciones más comunes.
+
+Nota: El cógido aquí presentado es escrito en la interfaz de Rstudio pero ejecutado por el lenguaje R base. Además, para poder compartir el código en GitHub se hizo uso de WSL2 y herramientas como Visual Studio Code.
