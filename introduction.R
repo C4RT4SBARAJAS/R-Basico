@@ -1,9 +1,12 @@
 
 # Curso de R y Rstudio ----------------------------------------------------
 
-# Usando R como una calculadora -------------------------------------------
 
-# Operaciones artiméticas en R y orden de resolución (PEMDAS):
+# Operaciones matemáticas en R --------------------------------------------
+
+# En R, los símbolos convencionales +, -, * y / se utilizan para sumar, 
+# restar, multiplicar y dividir. El orden de operaciones PEMDAS gobierna 
+# estas operaciones matemáticas en R.
 
 # Parentesís
 (1+4)*2
