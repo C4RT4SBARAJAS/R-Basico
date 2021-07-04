@@ -22,3 +22,17 @@
 
 # Sustracción
 12-6
+
+# Funciones matemáticas ---------------------------------------------------
+
+# Función trigonometríca
+sin(1)
+
+# Logarítmo natural
+log(1)
+
+# Logarítmo en base-10
+log10(10)
+
+# Exponencial (e^1/2)
+exp(0.5)
