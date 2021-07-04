@@ -26,6 +26,11 @@
 # Sustracción
 12-6
 
+# Comentarios en R --------------------------------------------------------
+
+# R interpreta cualquier cosa en una línea después de un símbolo # como un 
+# comentario. ¡ESTO ES UN COMENTARIO!
+
 # Funciones matemáticas ---------------------------------------------------
 
 # Función trigonometríca
