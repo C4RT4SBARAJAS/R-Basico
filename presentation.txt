@@ -2,7 +2,7 @@ Nombre del curso: Introducción a R y Rstudio.
 
 Quien imparte: Heriberto Cartas Barrera.
 
-Nivel de estudios: Superior.
+Profesión: Pasante en la Licenciatura de Ingeniería Forestal.
 
 Experiencia con R: Media
 
