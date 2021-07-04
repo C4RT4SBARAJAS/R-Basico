@@ -31,16 +31,26 @@
 # R interpreta cualquier cosa en una línea después de un símbolo # como un 
 # comentario. ¡ESTO ES UN COMENTARIO!
 
-# Funciones matemáticas ---------------------------------------------------
+# Tipos de datos en R -----------------------------------------------------
 
-# Función trigonometríca
-sin(1)
+# R proporciona los siguientes tipos de datos básicos: carácter, numérico,
+# entero, lógico y complejo. Cada tipo de datos se utiliza para representar
+# algún tipo de información: números, cadenas, valores booleanos, etc.
 
-# Logarítmo natural
-log(1)
+# var1 tiene el tipo númerico
+var1 <- 3
+var1 <- 2.5 # Integers or decimals.
 
-# Logarítmo en base-10
-log10(10)
+# var2 tiene el tipo caracter
+# Un carácter se indica con las comillas que lo rodean. Los caracteres 
+# son cualquier texto o agrupación de caracteres del teclado, incluidas 
+# letras, números, espacios, símbolos, etc.
+var2 <- "happiness"
+var2 <- "50"  
 
-# Exponencial (e^1/2)
-exp(0.5)
+# var3 tiene el tipo lógico
+# El tipo de datos lógicos R tiene dos valores posibles: TRUE o FALSE.
+# Es importante que las mayúsculas permanezcan como se muestra y asegurarse
+# de no envolver los valores entre comillas.
+var3 <- TRUE
+var3 <- FALSE
