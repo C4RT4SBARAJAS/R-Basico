@@ -1,12 +1,11 @@
+# Bienvenido al curso de R desde cero.
 
-# Curso de R y Rstudio ----------------------------------------------------
+# NOTA: Esta es un scrip de cálculos, si quieres saber más a detalle sobre cada punto, revisa el arvhico curso.txt adjunto.
 
-
-# Operaciones matemáticas en R --------------------------------------------
-
+# Operaciones matemáticas en R.
 # En R, los símbolos convencionales +, -, * y / se utilizan para sumar, 
 # restar, multiplicar y dividir. El orden de operaciones PEMDAS gobierna 
-# estas operaciones matemáticas en R.
+# estas operaciones matemáticas en R:
 
 # Parentesís
 (1+4)*2
@@ -26,13 +25,17 @@
 # Sustracción
 12-6
 
-# Comentarios en R --------------------------------------------------------
-
+# Comentarios en R.
 # R interpreta cualquier cosa en una línea después de un símbolo # como un 
 # comentario. ¡ESTO ES UN COMENTARIO!
 
-# Tipos de datos en R -----------------------------------------------------
+# Variables en R.
+# La forma de asignar variables en R tiene la siguiente sintaxis:
+# nombre_variable <- function(argumentos)
+# El nombre de la variable no deberá empezar por un número y podran utilizarse tanto minusculas como mayusculas.
+# El simbolo "<-" es el asignador, el cual declara a lo que abrá dentro de la variable.
 
+# Tipos de datos en R.
 # R proporciona los siguientes tipos de datos básicos: carácter, numérico,
 # entero, lógico y complejo. Cada tipo de datos se utiliza para representar
 # algún tipo de información: números, cadenas, valores booleanos, etc.
