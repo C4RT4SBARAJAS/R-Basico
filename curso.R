@@ -2,15 +2,12 @@
 
 # NOTA: Esta es un scrip de cálculos, si quieres saber más a detalle sobre cada punto, revisa el arvhico curso.txt adjunto.
 
-# Operaciones matemáticas en R.
-# En R, los símbolos convencionales +, -, * y / se utilizan para sumar, 
-# restar, multiplicar y dividir. El orden de operaciones PEMDAS gobierna 
-# estas operaciones matemáticas en R:
-
+# Operaciones aritméticas básicas en R.
+# Obedeciendo el orden de operaciones PEMDAS.
 # Parentesís
 (1+4)*2
 
-# Exponencial
+# Exponencial o potencia
 5^2
 
 # Multiplicación
@@ -18,6 +15,12 @@
 
 # División
 10/5
+
+# Cociente de una división
+10%/%5
+
+# Residuo de una división
+10%%5
 
 # Adición
 4+1
@@ -30,30 +33,29 @@
 # comentario. ¡ESTO ES UN COMENTARIO!
 
 # Variables en R.
-# La forma de asignar variables en R tiene la siguiente sintaxis:
-# nombre_variable <- function(argumentos)
-# El nombre de la variable no deberá empezar por un número y podran utilizarse tanto minusculas como mayusculas.
-# El simbolo "<-" es el asignador, el cual declara a lo que abrá dentro de la variable.
+# Nombre_Variable <- contenido
 
 # Tipos de datos en R.
-# R proporciona los siguientes tipos de datos básicos: carácter, numérico,
-# entero, lógico y complejo. Cada tipo de datos se utiliza para representar
-# algún tipo de información: números, cadenas, valores booleanos, etc.
-
-# var1 tiene el tipo númerico
+# Datos númericos.
 var1 <- 3
+
+# Datos decimales.
 var1 <- 2.5 # Integers or decimals.
 
-# var2 tiene el tipo caracter
-# Un carácter se indica con las comillas que lo rodean. Los caracteres 
-# son cualquier texto o agrupación de caracteres del teclado, incluidas 
-# letras, números, espacios, símbolos, etc.
+# Datos de caracteres
 var2 <- "happiness"
 var2 <- "50"  
 
-# var3 tiene el tipo lógico
-# El tipo de datos lógicos R tiene dos valores posibles: TRUE o FALSE.
-# Es importante que las mayúsculas permanezcan como se muestra y asegurarse
-# de no envolver los valores entre comillas.
+# Datos booleanos o lógicos
 var3 <- TRUE
 var3 <- FALSE
+
+# Operaciones con cadena de caracteres.
+# Definimos tres variables donde la primera guradará el nombre de una persona, la segunda el primer apellido y la tercera el segundo apellido.
+nombre <- "heriberto"
+apellido1 <- "cartas"
+apellido2 <- "barrera"
+
+# Podemos sumar caracteres logrando formar cadenas:
+completo <- c(nombre, apellido1)
+completo
