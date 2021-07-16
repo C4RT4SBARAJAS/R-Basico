@@ -1,0 +1,9 @@
+Bienvenido al curso de R desde cero, te saluda Heriberto Cartas Barrera.
+
+Antes de empezar dejame decirte que no es un curso terminado. Yo como tú también estoy aprendiedo de este gran lenguaje, y quise documentar todo este aprendizaje mediante un curso, que me terminará ayudando a mí, así como a tí si estas empezando con este gran lenguaje. 
+
+WARNING: Los programas que utilizo para crear y correr el código son ..
+- Visual Studio Code
+- Extención R 2.0.0 64-bit
+- WSL: Ubuntu-20.04
+- Paquete r-base-core
