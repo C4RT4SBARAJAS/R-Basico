@@ -2,7 +2,7 @@
 
 # NOTA: Esta es un scrip de cálculos, si quieres saber más a detalle sobre cada punto, revisa el arvhico curso.txt adjunto.
 
-# Operaciones aritméticas básicas en R.
+# Operaciones artiméticas básicas en R ------------------------------------
 # Obedeciendo el orden de operaciones PEMDAS.
 # Parentesís
 (1+4)*2
@@ -28,14 +28,13 @@
 # Sustracción
 12-6
 
-# Comentarios en R.
-# R interpreta cualquier cosa en una línea después de un símbolo # como un 
-# comentario. ¡ESTO ES UN COMENTARIO!
+# Comentarios en R --------------------------------------------------------
+# R interpreta cualquier cosa en una línea después de un símbolo # como un comentario. ¡ESTO ES UN COMENTARIO!
 
-# Variables en R.
+# Variables en R ----------------------------------------------------------
 # Nombre_Variable <- contenido
 
-# Tipos de datos en R.
+# Tipos de datos en R -----------------------------------------------------
 # Datos númericos.
 var1 <- 3
 
@@ -50,7 +49,7 @@ var2 <- "50"
 var3 <- TRUE
 var3 <- FALSE
 
-# Operaciones con cadena de caracteres.
+# Operaciones con cadena de caracteres ------------------------------------
 # Definimos tres variables donde la primera guradará el nombre de una persona, la segunda el primer apellido y la tercera el segundo apellido.
 nombre <- "heriberto"
 apellido1 <- "cartas"

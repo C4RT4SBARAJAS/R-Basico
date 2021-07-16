@@ -38,7 +38,7 @@ Ctrl + L = limpiar la consola  (mac = ⌃L)
 
 Ctrl + Shift + 1 = la ventana se centra en la sintaxis y la maximiza (mac = ⌃⇧1)
 
-Ctrl + Shift + + = la ventana se centra en el ambiente y lo maximiza (mac = ⌃⇧8)
+Ctrl + Shift + 8 = la ventana se centra en el ambiente y lo maximiza (mac = ⌃⇧8)
 
 Ctrl + Shift + 6 = la ventana se centra en los plots y los maximiza (mac = ⌃⇧6)
 
