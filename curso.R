@@ -52,10 +52,10 @@ var3 <- FALSE
 # Operaciones con cadena de caracteres ------------------------------------
 # Prerequisitos: 
 # Intalar la librería "tidyverse" para manipular cadenas sino se tiene instalado.
-install.packages('tidyverse')
+# install.packages('stringr')
 
 # Cargar la librería "tidyverse" para poder manipular cadenas.
-library(tidyverse)
+library(stringr)
 
 # NOTA: En caso de no poder intalar la librería no te preocupes, R te permite usarla de todas maneras usando la siguente sintaxis .. 
 # nombre_libreria::funtion(argumentos), para nuestro ejemplo futuro se vería así ..
