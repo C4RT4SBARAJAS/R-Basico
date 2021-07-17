@@ -1,4 +1,4 @@
-<div><a class="LI-simple-link" href='https://mx.linkedin.com/in/heriberto-cartas-barrera-010930204?trk=profile-badge'><img src='https://camo.githubusercontent.com/fc5927c6a70ae6baaba9cc4bb9fb7911a60acf00f49a2723fbdc6257dfe450f2/68747470733a2f2f313030306d61726361732e6e65742f77702d636f6e7https://www.masterbigdataonline.com/images/R_logo.svg.png' alt='Lenguaje R' title="Ver más cursos en Linkedin"/></a></div>
+<div><a class="LI-simple-link" href='https://mx.linkedin.com/in/heriberto-cartas-barrera-010930204?trk=profile-badge'><img src='https://www.masterbigdataonline.com/images/R_logo.svg.png' alt='Lenguaje R' title="Ver más cursos en Linkedin"/></a></div>
 
 ------------
 Un curso increíble para aprender R desde cero.
