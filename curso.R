@@ -141,3 +141,26 @@ stringr::str_sub(nombre)
 # Obteniendo el string de forma inversa o al reves:
 nombre <- "heriberto"
 stringi::stri_reverse(nombre)
+
+
+# Función input() ---------------------------------------------------------
+
+# Esta función te permite agregar datos a tus variables de forma más cómoda:
+edad1 <- readline("Ingresa tu edad: ")
+edad2 <- readline("Ingresa tu edad: ")
+
+# Cambia un tipo de dato a otro tipo en R ---------------------------------
+# Cabiar un datos de tipo caracter a númerico usando la función as.integer():
+edad1 <- "21"
+edad1 <- as.integer(edad1)
+
+# Cabiar un decimal a un entero usando la función int()
+edad2 <- 21.999483
+edad <- round(edad2)
+
+# Redondeando a 2 decimales:
+edad <- round(edad2, 2)
+
+# Cambiando un númerico a string usando la función as.character():
+edad <- 21
+edad <- as.character(edad)
