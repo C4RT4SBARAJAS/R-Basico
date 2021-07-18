@@ -1,4 +1,4 @@
-![](https://www.masterbigdataonline.com/images/R_logo.svg.png)
+<div><a class="LI-simple-link" href='https://mx.linkedin.com/in/heriberto-cartas-barrera-010930204?trk=profile-badge'><img src='https://www.masterbigdataonline.com/images/R_logo.svg.png' alt='Lenguaje R' title="Ver más cursos en Linkedin"/></a></div>
 
 ------------
 Un curso increíble para aprender R desde cero.
@@ -21,3 +21,5 @@ Debido a sus múltiples capacidades y funciones, podemos encontrar R en el siste
 Debido al auge de ambos lenguajes de programación, R y Python son dos herramientas fundamentales. Son muy importantes en el ámbito de la interesante profesión de Data Sciencist. Ambos proporcionan al alumno un perfil técnico, junto con formación en estadística, modelos predictivos y bases de datos. Todo junto, consiguen que la empleabilidad del programa sea alta.
 
 Si te interesa el mundo de la programación y su influencia, en este curso gratis es tu gran oportunidad. Te ayudará a ampliar tu currículum y tu experiencia profesional. ¿Estás preparado para revolucionar el futuro? ¡Adéntrate en el mundo de la programación con R y Python!
+
+<div><a class="LI-simple-link" href='https://mx.linkedin.com/in/heriberto-cartas-barrera-010930204?trk=profile-badge'><img src='https://camo.githubusercontent.com/191c8eba9d324d4c14409bd39b2c495da60ea09357e1e68f311eee9713bd9c6b/68747470733a2f2f7374617469632d657870312e6c6963646e2e636f6d2f736364732f636f6d6d6f6e2f752f696d616765732f6c6f676f732f6c696e6b6564696e2f6c6f676f5f6c696e6b6564696e5f39337832315f76322e706e67' alt='Linkedin de Heriberto Cartas Barrera' title="Linkedin de Heriberto Cartas Barrera"/></a></div>
