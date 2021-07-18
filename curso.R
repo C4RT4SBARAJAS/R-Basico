@@ -51,13 +51,14 @@ var3 <- FALSE
 
 # Operaciones con cadena de caracteres ------------------------------------
 # Prerequisitos: 
-# Intalar la librería "tidyverse" para manipular cadenas sino se tiene instalado.
+# Intalar el paquete "stringr" para manipular cadenas sino se tiene instalado.
 # install.packages('stringr')
+# Los paquetes en R son colecciones de funciones y conjunto de datos desarrollados por la comunidad. Estos incrementan la potencialidad de R mejorando las funcionalidades base en R, o añadiendo de nuevas.
 
-# Cargar la librería "tidyverse" para poder manipular cadenas.
+# Cargar el paquete "stringr" para poder manipular cadenas.
 library(stringr)
 
-# NOTA: En caso de no poder intalar la librería no te preocupes, R te permite usarla de todas maneras usando la siguente sintaxis .. 
+# NOTA: En caso de no poder intalar el paquete no te preocupes, R te permite usarla de todas maneras usando la siguente sintaxis .. 
 # nombre_libreria::funtion(argumentos), para nuestro ejemplo futuro se vería así ..
 # stringr::str_c(nombre, apellido1, apellido2)
 
@@ -66,27 +67,77 @@ nombre <- "heriberto"
 apellido1 <- "cartas"
 apellido2 <- "barrera"
 
-# Podemos sumar caracteres logrando formar cadenas utilizndo la función str_c():
-# Llamando a la librería sin instalar ..
+# Podemos lograr formar cadenas de caracteres utilizndo la función str_c():
+# Utilizando el paquete "stringr" de R sin instalar..
 stringr::str_c(nombre, apellido1, apellido2, sep = " ")
 
-# Utilizando la librería ya instalada:
+# Cuando instalamos el paquete no es necesario tipear el simbolo "::" para poder usarlo:
 str_c(nombre, apellido1, apellido2, sep = " ")
 
 # Guardando el string en una variable:
 nombre_completo <- stringr::str_c(nombre, apellido1, apellido2, sep = " ")
 
-# Eliminar espacios basura al inicio o final:
-stringr::str_replace_all(nombre_completo, " ", "")
-
-# Sobreescribiendo la variable nombre_completo:
-nombre_completo <- stringr::str_replace_all(nombre_completo, " ", "")
-
 # Cambiar el texto a mayusculas:
-stringr::str_to_upper(nombre_completo)
+nombre <- "heriberto"
+stringr::str_to_upper(nombre)
+
+# Colocar la primera letra en Mayusculas en las tres variables, y sobreescribiendo la variable:
+nombre <- "heriberto"
+apellido1 <- "cartas"
+apellido2 <- "barrera"
+
+nombre <- stringr::str_to_title(nombre)
+apellido1 <- stringr::str_to_title(apellido1)
+apellido2 <- stringr::str_to_title(apellido2)
+
+# Eliminar espacios basura al inicio o final:
+nombre <- " heriberto "
+stringr::str_replace_all(nombre, " ", "")
 
 # Cambiar el texto a minusculas:
-stringr::str_to_lower(nombre_completo)
+nombre <- "HERIBERTO"
+stringr::str_to_lower(nombre)
+
+# Remplazar una letra por otra:
+nombre <- "heriberto"
+stringr::str_replace(nombre, "o", "a")
+
+# Devolviendo la primera letra de la variable nombre:
+nombre <- "heriberto"
+stringr::str_sub(nombre, start = 1, end = 1)
+
+# Devolviendo la última letra de la variable nombre:
+stringr::str_sub(nombre, start = 9, end = 9)
 
 # Longitud de una cadena con la función str_length():
-stringr::str_length(nombre_completo)
+nombre <- "heriberto"
+stringr::str_length(nombre)
+
+# Slices en R:
+# Los slices en R hacen referencia a rebanadas, donde puedes cortar una cadena de caracteres en las partes que desees. Para ello necesitamos conocer el número de letras que formar el string.
+# NOTA: En R el conteo empieza por el número 1. A diferencia de Python donde se empieza de 0:
+nombre <- "heriberto"
+stringr::str_sub(nombre, start = 1, end = 4)
+
+# Partiendo en dos rebanadas el string "heriberto":
+stringr::str_sub(nombre, end = 4)
+stringr::str_sub(nombre, start = 4)
+
+# Podemos agregar un número más que representarían los pasos o separaciones en las reabanadas. Por ejemplo, quiero una rebanada que valla del dos al ocho, pero con una separación de dos en dos:
+nombre <- "heriberto"
+nombre <- stringr::str_sub(nombre, start = 2, end = 8)
+stringr::str_length(nombre)
+sep1 <- stringr::str_sub(nombre, end = 2-4)
+sep2 <- stringr::str_sub(nombre, end = 7-4)
+sep3 <- stringr::str_sub(nombre, end = 7-6)
+sep4 <- stringr::str_sub(nombre, end = 7-8)
+
+nombre <- c(sep1, sep2, sep3, sep4)
+
+# Obteniendo el string completo:
+nombre <- "heriberto"
+stringr::str_sub(nombre)
+
+# Obteniendo el string de forma inversa o al reves:
+nombre <- "heriberto"
+stringi::stri_reverse(nombre)
