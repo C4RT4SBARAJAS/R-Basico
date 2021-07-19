@@ -164,3 +164,117 @@ edad <- round(edad2, 2)
 # Cambiando un númerico a string usando la función as.character():
 edad <- 21
 edad <- as.character(edad)
+
+# Operadores lógicos ------------------------------------------------------
+# Definamos dos variables que describen la situación de un estudiante llamado Heriberto: 
+estudia <- TRUE
+trabaja <- FALSE
+
+# Realizando algúnas preguntas sobre Heriberto:
+# 1. ¿Heriberto estudia y trabaja?
+estudia & trabaja
+# 2. ¿Heriberto estudia o almenos trabaja?
+estudia | trabaja
+
+# Invirtiendo el valor de las variables.
+! estudia
+! trabaja
+
+# Operadores de comparación -----------------------------------------------
+# Definamos 3 variables que guardan las edades de tres personas diferentes:
+heriberto <- 22
+erika <- 22
+arlet <- 20
+
+# Realizando algúnas preguntas sobre las edades:
+# 1. ¿La edad de heriberto es igual a la edada de erika?
+heriberto == erika
+# 2. ¿La edad de heriberto es mayor que la edad de erika?
+heriberto > erika
+# 3. ¿La edad de erika es menor a la edad de arlet?
+erika < arlet
+# 4. ¿La edad de erika es mayor o igual a la edad de arlet?
+erika >= arlet
+# 5. ¿La edada de arlet es menor o igual a la edad de heriberto?
+arlet <= heriberto
+# 6. ¿La edad de erika es distinta a la edad de heriberto?
+erika != heriberto
+
+# Condicionales en R ------------------------------------------------------
+# Generemos 2 respuestas en base a mi edad, teniendo en cuenta que tengo 22 años. Respuestas: Sí mi edad es menor a 18 años entonces soy menor de edad y sí no entonces soy mayor de edad.
+
+mi_edad <- 22
+# Una condicional en R luce de la siguiente manera:
+if (mi_edad < 18) {
+  print("Soy menor de edad")
+} else {
+  print("Soy mayor de edad")
+}
+
+# Usando la función ifelse():
+mi_edad <- 22
+ifelse(mi_edad < 18, "Soy menor de edad", "Soy mayor de edad")
+
+# Codicionales booleanas en R ---------------------------------------------
+# Generemos 3 respuestas de acuerdo a mi estatura en centímetros, considerando que mido 170 cm. Respuestas: Sí mi estatura es menor a 170 cm entonces soy bajo, sí mi estatura esta entre los 170 y 179 cm entonces soy alto, y sí no es que soy muy alto.
+
+mi_estatura <- 170
+# La condicional luce de la siguiente manera:
+if (mi_estatura < 170) {
+  print("Soy bajo")
+} else if (mi_estatura >= 170 & mi_estatura <= 179) {
+  print("Soy alto")
+} else {
+  print("Soy muy alto")
+}
+
+# Funciones en R ----------------------------------------------------------
+# A continuación, repetimos dos líneas de codigo intencionalmente.
+print("Ingresa tu nombre: ")
+print("Ingresa tu edad: ")
+print("Ingresa tu nombre: ")
+print("Ingresa tu edad: ")
+print("Ingresa tu nombre: ")
+print("Ingresa tu edad: ")
+
+# Las funciones nos evitan repetir líneas de código guardando ese código en funciones que nosotros mismos creamos. Las funciones son una buena práctica. Nuestra función se vería así:
+mi_funcion <- function() {
+  print("Ingresa tu nombre: ")
+  print("Ingresa tu edad: ")
+}
+
+# Para ejectur estas lineas de código llamamos a al función el número de veces que queramos:
+mi_funcion()
+mi_funcion()
+mi_funcion()
+
+# Agumentos en una función ------------------------------------------------
+# Los argumentos funcionan como variables dentro de una función, es el valor que cambia. 
+
+# A continuación, repetimos un bloque de 4 líneas de código intencionalmente.
+print("Hola")# Bloque 1
+print("Muchas felicidades")
+print("Elejiste la opción 1")# Línea diferente
+print("Hasta luego")
+print("Hola")# Bloque 2
+print("Muchas felicidades")
+print("Elejiste la opción 2")# Línea diferente
+print("Hasta luego")
+print("Hola")# Bloque 3
+print("Muchas felicidades")
+print("Elejiste la opción 3")# Línea diferente
+print("Hasta luego")
+
+# Como pudiste observar hay 3 líneas de códigos comunes en cada bloque de código.
+# Ahora escribamos este código de una forma más corta usando una función y un parámetro:
+respuestas <- function(mensaje) {
+print("Hola")
+print("Muchas felicidades")
+print(mensaje)
+print("Hasta luego")
+}
+
+# Para generar cada bloque de código de 4 líneas llamamos a la función creada, modificando unicamente el parámetro mensaje:
+respuestas("Elegiste la opción 1")
+respuestas("Elegiste la opción 2")
+respuestas("Elegiste la opción 3")
