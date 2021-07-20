@@ -13,14 +13,25 @@
 
 # Impresor hasta el número 5353 -------------------------------------------
 # Utilizando break
-run <- function() {
-  for (i in 1:10000) {
-  if (i == 5353) {
-    break
-    }
-    print(i)
-  }
-  }
+# run <- function() {
+#   for (i in 1:10000) {
+#   if (i == 5353) {
+#     break
+#     }
+#     print(i)
+#   }
+#   }
 
+# Textos con la letra o ---------------------------------------------------
+texto <- readline('Escribe un texto: ')
+
+run <- function() {
+  for (letra in texto) {
+    if (letra == 'o') {
+      letra <- stringr::str_replace(letra, "o", "a")
+      }
+    print(letra)
+  }
+  }
 
 run()
