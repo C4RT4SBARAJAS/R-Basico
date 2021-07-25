@@ -278,3 +278,44 @@ print("Hasta luego")
 respuestas("Elegiste la opción 1")
 respuestas("Elegiste la opción 2")
 respuestas("Elegiste la opción 3")
+
+# Listas en R -------------------------------------------------------------
+# Las listas son objetos dinámicos donde podemos guardar diferentes tipos de datos, ya sea númerico, flotante, caracter, o buleano.
+# Para crear listas se utiliza la siguiente sintaxis:
+objeto <- list(4, 2.5, 'Hola', TRUE)
+
+
+# Para llamar a un elemento en especifico dentro de lista. Por ejemplo a primer elemento: 
+objeto[[1]]
+
+# Al cuarto elemento:
+objeto[[4]]
+
+# Para agregar otro tipo de dato a la lista utilizamos el asignador " <- " y le damos el nombre de 5:
+objeto[[5]] <- FALSE
+
+# Para quitar un elemento de la lista utilizamos el asignador " <- " y damos el valor de NULL. Por ejemplo, para retirar el tercer elmento:
+objeto[[3]] <- NULL
+
+# También podemos utilizar slices en una lista:
+stringr::str_sub(objeto, start = 1, end = 2)
+stringi::stri_reverse(objeto)
+
+# Asignando nombre a los elementos de una lista:
+mi_lista <- list(a = 1:3, b = c("hola", "adiós"))
+
+# Lamando al primer elemento de una lista por su nombre:
+mi_lista$a
+
+# Multiplicando listas con la función rep():
+rep(mi_lista, 2)
+
+# Vectores en R.
+# Un vector es una colección de uno o más datos del mismo tipo. Los vectores son atómicos, pues sólo pueden contener datos de un sólo tipo, no es posible mezclar datos de tipos diferentes dentro de ellos.
+# Muy utiles para acelerar la ejecusión de un programa en pyhon. Tiene la siguiente sintaxis:
+objeto <- c(1, 2, 3, 4, 5)
+
+# A los vectores no se le pueden agregar o quitar elementos, ya que reemplaza los valores:
+for (numero in objeto) {
+  print(numero)
+}
