@@ -143,7 +143,7 @@ nombre <- "heriberto"
 stringi::stri_reverse(nombre)
 
 
-# Función input() ---------------------------------------------------------
+# Función readline() ---------------------------------------------------------
 
 # Esta función te permite agregar datos a tus variables de forma más cómoda:
 edad1 <- readline("Ingresa tu edad: ")
